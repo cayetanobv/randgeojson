@@ -80,8 +80,8 @@ void geoJsonFeatBuilder( float lat, float lon, int id, char notlast_feat ) {
 //------------------------------------------------------------------------------
 // Pseudo-random geographic coordinates (latitude/longitude) generator.
 //
-// This algorithm are developed using DRAND48 C function.
-// DRAND48 function generate pseudo-random numbers (uniformly distributed)
+// This algorithm is developed using DRAND48 C function.
+// DRAND48 function generates pseudo-random numbers (uniformly distributed)
 // using the linear congruential algorithm and 48-bit integer arithmetic.
 //
 // I have choosen a linear congruential algorithm for this function because
