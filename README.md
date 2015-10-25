@@ -20,7 +20,7 @@ After compiling library
 $ make
 ```
 you can test generator from Python with
-```python
+```bash
 $ python test.py
 ```
 

@@ -1,0 +1,8 @@
+*.pyc
+
+# Compiled C files
+*.o
+*.so
+
+# Cython generated C file
+pyrand_geojson.c
