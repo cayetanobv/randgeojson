@@ -14,12 +14,29 @@ this function because is fast and require minimal memory. For a better
 pseudo-randomness should be used other algorithms.
 
 
-## Testing
-After compiling library
+## Usage
+After compiling library...
 ```bash
 $ make
 ```
-you can test generator from Python with
+...you can run generator from Python:
+```python
+from pyrand_geojson import randGeojson
+
+def test(nfeats, gjs_flname):
+    randGeojson(nfeats, 0, gjs_flname)
+
+def main():
+    gjs_flname= "/tmp/rand_corrd.geojson"
+    nfeats = 100000
+    test(nfeats, gjs_flname)
+
+if __name__ == '__main__':
+  main()
+```
+
+## Testing
+You can test generator from Python with
 ```bash
 $ python test.py
 ```
